@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@evinced/js-selenium-sdk": "file:/Users/mdobeck/Downloads/js-selenium-sdk-1.0.0.tar",
     "mocha": "^10.4.0",
     "selenium-webdriver": "^4.20.0"
   }
