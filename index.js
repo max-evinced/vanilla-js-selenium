@@ -15,7 +15,7 @@ describe("Evinced Travel", () => {
         await driver.manage().setTimeouts({implicit: 1000});
         await driver.get("https://demo.evinced.com")
         const issues = await evincedService.evAnalyze()
-        evincedService.evSaveFile(issues, 'json', 'evinced-report.json');
+        evincedService.evSaveFile(issues, 'json', 'evinced-report.json')
     })
 
     afterEach(async () => {
